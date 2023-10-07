@@ -60,7 +60,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/asylumguard/Stuff/mai
 local Button = MainTab:CreateButton({
    Name = "noclip",
    Callback = function()
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/asylumguard/Stuff/main/noclip.txt"))()
    end,
 })
 
