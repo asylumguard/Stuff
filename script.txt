@@ -57,6 +57,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/asylumguard/Stuff/mai
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "noclip",
+   Callback = function()
+loadstring(game:HttpGet(""))()
+   end,
+})
+
 local Slider = MainTab:CreateSlider({
    Name = "walk speed",
    Range = {0, 300},
