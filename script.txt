@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key system code enter it", -
       SaveKey = false, 
       GrabKeyFromSite = true, 
-      Key = {"https://pastebin.com/raw/bGZYn9sc"}
+      Key = {"https://raw.githubusercontent.com/asylumguard/Stuff/main/key.txt"}
    }
 })
  
